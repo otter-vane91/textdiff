@@ -1,0 +1,20 @@
+{
+  "name": "textdiff",
+  "version": "0.1.0",
+  "description": "A small library and CLI for computing and rendering text diffs.",
+  "type": "module",
+  "main": "dist/diff.js",
+  "types": "dist/diff.d.ts",
+  "bin": {
+    "textdiff": "dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js"
+  },
+  "license": "MIT",
+  "author": "otter-vane91"
+}
