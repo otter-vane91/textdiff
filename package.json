@@ -13,7 +13,9 @@
   ],
   "scripts": {
     "build": "tsc",
-    "start": "node dist/cli.js"
+    "start": "node dist/cli.js",
+    "pretest": "tsc",
+    "test": "node --test dist"
   },
   "license": "MIT",
   "author": "otter-vane91"

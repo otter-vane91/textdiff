@@ -72,6 +72,18 @@ This is a plain TypeScript project with no dependencies, so a normal
 `npx typescript`, whatever your toolchain already gives you) produces
 `dist/` from `tsconfig.json`.
 
+## Testing
+
+Tests use Node's built-in test runner, so there's nothing extra to
+install:
+
+```sh
+npm test
+```
+
+This compiles the project first (`tsc`), then runs every `*.test.js`
+file under `dist/`.
+
 ## Status
 
 Early. Line and word diffing plus unified-diff formatting work now.
